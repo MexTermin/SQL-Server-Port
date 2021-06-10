@@ -29,7 +29,7 @@ it should show you the SQL Server Port. If this dont show you the port, do the n
 ### *Step 3*
 - Use Windows key(start) +  q
 - find `cmd` and execute it with admin privileges.
-- write `netstat -ano | findstr *PORT*`, replace  *PORT* for a por number, default SQl use 4033 or 4034, try this port
+- write `netstat -ano | findstr *PORT*`, replace  `*PORT*` for a por number, default SQl use 4033 or 4034, try this port
 - if dont appear  a process listening in the console you can use it port in the previous step. Otherwise try another port.
 - Do the previous step again and use that port in `TCP Port`
 
