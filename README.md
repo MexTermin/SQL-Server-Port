@@ -4,10 +4,12 @@
 - Right Click in you SQL connection
 - Click in New Query
 - Paste and execute :
-> USE master
->    GO
->    xp_readerrorlog 0, 1, N'Server is listening on',N'', NULL, NULL, N'asc'
->    GO
+```
+USE master
+GO
+xp_readerrorlog 0, 1, N'Server is listening on',N'', NULL, NULL, N'asc'
+GO
+```
 
 <p>
 it should show you the SQL Server Port. If this dont show you the port, do the next.
